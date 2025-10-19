@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+/* style navbar mulai*/
+nav{
+    background-color: rgba(245, 247, 248, 0.1);
+    left: 0;
+    right: 0;
+    height: 70px;
+    position: fixed;
+}
+
+nav .logo{
+    background-image: url(img/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 70px;
+    height: 70px;
+    margin-left: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 100px;
+    margin-right: 50px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: rgba(84, 89, 96, 1);
+}
+
+/* style navbar selesai*/
+
+/* style hero section mulai*/
+
+/* style background hero */
+.hero{
+    background-image: url(img/hero.jpg);
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+/* style background hero selesai*/
+
+/* style content-hero mulai*/
+
+.hero .content-hero{
+    width: 500px;
+    padding: 200px 100px;
+    color: rgba(84, 89, 96, 1);
+}
+
+.content-hero h1{
+    display: flex;
+    flex-direction: column;
+    font-size: 75px;
+    text-shadow: 5px 5px 0px rgb(244, 199, 84);
+}
+
+.content-hero h4{
+    /* color: rgba(84, 89, 96, 1); */
+    margin-block: 25px;
+}
+
+.content-hero button{
+    color: #ffff;
+    width: 150px;
+    height: 50px;
+    border-radius: 75px;
+    cursor: pointer;
+}
+
+.content-hero .button1{
+    background-color: rgb(244, 199, 84);
+    border: none;
+    box-shadow: 3px 3px 0px rgb(144, 193, 197);
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.content-hero .button2{
+    background-color: rgb(144, 193, 197);
+    border: none;
+    box-shadow: 3px 3px 0px rgb(244, 199, 84);
+    cursor: pointer;
+}
+/* style content hero selesai */
+
+/* style box di hero section mulai*/
+.hero .box{
+    padding: 200px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font: 15px/20px sans-serif;
+    box-sizing: border-box;
+    margin-top: 50px ;
+    margin-left: 100px;
+    color: rgba(84, 89, 96, 1);
+}
+
+.hero .box1{
+    width: 250px;
+    height: 70px;
+    background-color: aliceblue;
+    border-radius: 60px;
+    box-shadow: 5px 5px 0px rgb(244, 199, 84);
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.hero .box2{
+    width: 250px;
+    height: 70px;
+    background-color: aliceblue;
+    border-radius: 60px;
+    box-shadow: 5px 5px 0px rgb(244, 199, 84);
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.hero .box3{
+    width: 250px;
+    height: 70px;
+    background-color: aliceblue;
+    border-radius: 60px;
+    box-shadow: 5px 5px 0px rgb(244, 199, 84);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.hero .box img{
+    margin-left: 10px;
+}
+
+.hero h5{
+    font-size: large;
+}
+/* style box di hero section selesai*/
+
+/* style hero section selesai*/
+
+/* style content mulai */
+/* style content 1 mulai */
+.content .content-1{
+    text-align: center;
+    margin: 100px auto;
+    color: rgba(84, 89, 96, 1);
+}
+
+.content .content-1 h1{
+    font-size: 50px;
+}
+
+.content .content-1 .box{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.content .content-1 .box img{
+    background-color: #ffff;
+    border-radius: 50%;
+    box-shadow: 2px 2px 0px rgb(244, 199, 84);
+}
+
+.content .content-1 .box a{
+    text-decoration: none;
+    color: rgb(244, 199, 84);
+}
+
+.content .content-1 .box-1{
+    width: 290px;
+    height: 310px;
+    background-color: rgba(232, 246, 255, 1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.content .content-1 .box-2{
+    width: 290px;
+    height: 310px;
+    background-color: rgba(232, 246, 255, 1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.content .content-1 .box-3{
+    width: 290px;
+    height: 310px;
+    background-color: rgba(232, 246, 255, 1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.content .content-1 .box-4{
+    width: 290px;
+    height: 310px;
+    background-color: rgba(232, 246, 255, 1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+/* style content 1 mulai */
+
+/* style content 2 mulai */
+.content .content-2{
+    background-color: rgb(244, 249, 252);
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    color: rgba(84, 89, 96, 1);
+}
+
+.content .content-2 .main-content-2{
+    width: 550px;
+    margin-block: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content .content-2 button{
+    color: #ffff;
+    width: 150px;
+    height: 50px;
+    border-radius: 75px;
+    background-color: rgb(244, 199, 84);
+    border: none;
+    box-shadow: 3px 3px 0px rgb(144, 193, 197);
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.content .content-2 .main-content-2 h1{
+    font-size: 50px;
+}
+/* style content 2 mulai */
+
+/* style content 3 mulai */
+.content .content-3{
+    text-align: center;
+    margin-block: 50px;
+    color: rgba(84, 89, 96, 1);
+}
+
+.content .content-3 .harga1{
+    display: flex;
+    width: 800px;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(244, 199, 84);
+}
+.content .content-3 .harga2{
+    display: flex;
+    width: 800px;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(244, 199, 84);
+}
+.content .content-3 .harga3{
+    display: flex;
+    width: 800px;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(244, 199, 84);
+}
+.content .content-3 .harga4{
+    display: flex;
+    width: 800px;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(244, 199, 84);
+}
+/* style content 3 selesai */
+
+/* style content 4 mulai */
+.content .content-4{
+    background-color: rgb(244, 249, 252);
+    margin-top: 50px;
+    padding-block: 70px;
+    color: rgba(84, 89, 96, 1);
+    text-align: center;
+}
+
+.content .content-4 .card{
+    margin-top: 20px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.content .content-4 .card .card1{
+    width: 290px;
+    height: 310px;
+    background-color: #ffff;
+    box-shadow: 3px 3px 0px rgb(244, 199, 84);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.content .content-4 .card .card2{
+    width: 290px;
+    height: 310px;
+    background-color: #ffff;
+    box-shadow: 3px 3px 0px rgb(244, 199, 84);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.content .content-4 .card .card3{
+    width: 290px;
+    height: 310px;
+    background-color: #ffff;
+    box-shadow: 3px 3px 0px rgb(244, 199, 84);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+/* stiye content 4 selesai */
+
+/* style content selesai */
+
+/* style footer mulai */
+footer{
+    display: flex;
+    padding: 50px 20px 20px 20px;
+    background-color: rgba(58, 58, 58, 1);
+    color: #ffff;
+}
+
+footer .contact{
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 100px;
+}
+
+footer .lokasi{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer .navbar{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer .navbar ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style-type: none;
+}
+footer .navbar a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.copyright{
+    background-color: rgba(58, 58, 58, 1);
+    color: #ffff;
+    text-align: center;
+    border-top: 2px solid #ffff;
+}
+
+.copyright a{
+    color: #ffff;
+}
+/* style footer selesai */
