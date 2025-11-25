@@ -24,13 +24,21 @@ nav .logo{
 }
 
 nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 nav ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     list-style-type: none;
     gap: 100px;
     margin-right: 50px;
@@ -53,6 +61,8 @@ nav ul a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 /* style background hero selesai*/
@@ -66,8 +76,13 @@ nav ul a{
 }
 
 .content-hero h1{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     font-size: 75px;
     text-shadow: 5px 5px 0px rgb(244, 199, 84);
 }
@@ -104,8 +119,13 @@ nav ul a{
 /* style box di hero section mulai*/
 .hero .box{
     padding: 200px 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     gap: 50px;
     font: 15px/20px sans-serif;
     box-sizing: border-box;
@@ -120,10 +140,16 @@ nav ul a{
     background-color: aliceblue;
     border-radius: 60px;
     box-shadow: 5px 5px 0px rgb(244, 199, 84);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     gap: 5px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     box-sizing: border-box;
 }
 
@@ -134,10 +160,16 @@ nav ul a{
     border-radius: 60px;
     box-shadow: 5px 5px 0px rgb(244, 199, 84);
     margin-left: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     gap: 5px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     box-sizing: border-box;
 }
 
@@ -147,9 +179,15 @@ nav ul a{
     background-color: aliceblue;
     border-radius: 60px;
     box-shadow: 5px 5px 0px rgb(244, 199, 84);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     box-sizing: border-box;
 }
 
@@ -177,9 +215,13 @@ nav ul a{
 }
 
 .content .content-1 .box{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 20px;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin: 50px 0;
 }
 
@@ -199,11 +241,20 @@ nav ul a{
     height: 310px;
     background-color: rgba(232, 246, 255, 1);
     border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     text-align: center;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 10px;
     box-sizing: border-box;
     padding: 20px;
@@ -214,11 +265,20 @@ nav ul a{
     height: 310px;
     background-color: rgba(232, 246, 255, 1);
     border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     text-align: center;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 10px;
     box-sizing: border-box;
     padding: 20px;
@@ -229,11 +289,20 @@ nav ul a{
     height: 310px;
     background-color: rgba(232, 246, 255, 1);
     border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     text-align: center;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 10px;
     box-sizing: border-box;
     padding: 20px;
@@ -244,11 +313,20 @@ nav ul a{
     height: 310px;
     background-color: rgba(232, 246, 255, 1);
     border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     text-align: center;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 10px;
     box-sizing: border-box;
     padding: 20px;
@@ -258,17 +336,26 @@ nav ul a{
 /* style content 2 mulai */
 .content .content-2{
     background-color: rgb(244, 249, 252);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 200px;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     color: rgba(84, 89, 96, 1);
 }
 
 .content .content-2 .main-content-2{
     width: 550px;
     margin-block: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     gap: 20px;
 }
 
@@ -297,35 +384,59 @@ nav ul a{
 }
 
 .content .content-3 .harga1{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 800px;
     margin: 20px auto;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     border-bottom: 2px solid rgb(244, 199, 84);
 }
 .content .content-3 .harga2{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 800px;
     margin: 20px auto;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     border-bottom: 2px solid rgb(244, 199, 84);
 }
 .content .content-3 .harga3{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 800px;
     margin: 20px auto;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     border-bottom: 2px solid rgb(244, 199, 84);
 }
 .content .content-3 .harga4{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 800px;
     margin: 20px auto;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     border-bottom: 2px solid rgb(244, 199, 84);
 }
 /* style content 3 selesai */
@@ -341,9 +452,13 @@ nav ul a{
 
 .content .content-4 .card{
     margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 50px;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .content .content-4 .card .card1{
@@ -352,11 +467,20 @@ nav ul a{
     background-color: #ffff;
     box-shadow: 3px 3px 0px rgb(244, 199, 84);
     border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     text-align: center;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 10px;
     box-sizing: border-box;
     padding: 20px;
@@ -368,11 +492,20 @@ nav ul a{
     background-color: #ffff;
     box-shadow: 3px 3px 0px rgb(244, 199, 84);
     border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     text-align: center;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 10px;
     box-sizing: border-box;
     padding: 20px;
@@ -384,11 +517,20 @@ nav ul a{
     background-color: #ffff;
     box-shadow: 3px 3px 0px rgb(244, 199, 84);
     border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     text-align: center;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 10px;
     box-sizing: border-box;
     padding: 20px;
@@ -399,6 +541,8 @@ nav ul a{
 
 /* style footer mulai */
 footer{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 50px 20px 20px 20px;
     background-color: rgba(58, 58, 58, 1);
@@ -406,30 +550,56 @@ footer{
 }
 
 footer .contact{
-    flex: 5;
+    -webkit-box-flex: 5;
+        -ms-flex: 5;
+            flex: 5;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     gap: 20px;
     padding-left: 100px;
 }
 
 footer .lokasi{
-    flex: 2;
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     gap: 20px;
 }
 
 footer .navbar{
-    flex: 1;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     gap: 20px;
 }
 
 footer .navbar ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     gap: 30px;
     list-style-type: none;
 }
